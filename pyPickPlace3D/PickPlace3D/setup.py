@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PickPlace3D",
-    version="0.0.1",
+    version="0.0.1.1",
     author="Ben Knight",
     author_email="bknight@i3drobotics.com",
     description="Pick and place using 3D data to inform robotic movement",

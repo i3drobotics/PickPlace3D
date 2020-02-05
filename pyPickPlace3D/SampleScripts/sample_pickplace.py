@@ -12,4 +12,7 @@ pp = PickPlace3D.PickPlace3D(stcam)
 # connect to pick and place devices
 pp.connect()
 # run pick and place routine
-pp.run()
+pp.run(isThreaded=True)
+print("Waiting for pick place to finish...")
+while(pp.running): pass
+print("Pick place process finished.")
